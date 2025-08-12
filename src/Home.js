@@ -38,8 +38,8 @@ function Home() {
                 that make a real impact.
               </p>
               <div className="hero-buttons">
-                <a href="/projects" className="btn">View My Work</a>
-                <a href="/resume" className="btn btn-secondary">Download Resume</a>
+                <a href="/mynameisanthonychow/projects" className="btn">View My Work</a>
+                <a href="/mynameisanthonychow/resume" className="btn btn-secondary">Download Resume</a>
               </div>
             </div>
             <div className="hero-image">
@@ -91,13 +91,13 @@ function Home() {
                       <span key={techIndex} className="tech-tag">{tech}</span>
                     ))}
                   </div>
-                  <a href="/projects" className="btn">View Project</a>
+                  <a href="/mynameisanthonychow/projects" className="btn">View Project</a>
                 </div>
               </div>
             ))}
           </div>
           <div className="view-all-projects">
-            <a href="/projects" className="btn btn-secondary">View All Projects</a>
+            <a href="/mynameisanthonychow/projects" className="btn btn-secondary">View All Projects</a>
           </div>
         </div>
       </section>
@@ -130,7 +130,7 @@ function Home() {
             <h2>Ready to work together?</h2>
             <p>Let's discuss your next project and how I can help bring your ideas to life.</p>
             <div className="cta-buttons">
-              <a href="/resume" className="btn">Download Resume</a>
+              <a href="/mynameisanthonychow/resume" className="btn">Download Resume</a>
               <a href="mailto:your.email@example.com" className="btn btn-secondary">Get In Touch</a>
             </div>
           </div>

@@ -1,0 +1,114 @@
+/* Header container - fixed at top */
+.topbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 20px rgba(102, 126, 234, 0.3);
+  padding: 10px 0;
+}
+
+.topbar-container .MyHead {
+  pointer-events: auto; /* Enable clicking on the head image */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
+}
+
+.topbar-container .MyHead:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3));
+}
+
+.topbar-container nav ul {
+  list-style: none;
+}
+
+.topbar-container nav a {
+  text-decoration: none;
+  transition: all 0.3s ease;
+  user-select: none;
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 500;
+  position: relative;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.topbar-container .nav-link {
+  text-decoration: none;
+  transition: all 0.3s ease;
+  user-select: none;
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-weight: 500;
+  position: relative;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.topbar-container nav a:hover,
+.topbar-container .nav-link:hover {
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.topbar-container nav a::after,
+.topbar-container .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.8);
+  transition: width 0.3s ease;
+}
+
+.topbar-container nav a:hover::after,
+.topbar-container .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .topbar-container {
+    padding: 5px 0;
+  }
+  
+  .topbar-container nav ul {
+    gap: 1rem !important;
+    padding: 10px !important;
+  }
+  
+  .topbar-container nav a {
+    font-size: 1rem !important;
+  }
+}
+
+.MyHead {
+    height: 75px;
+    pointer-events: none;
+    border-radius: 75%;
+    animation-delay: 10s
+  }
+  
+@media (prefers-reduced-motion: no-preference) {
+    .MyHead {
+        animation: App-logo-spin infinite 20s linear 600s;
+    }
+}
+
+  
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

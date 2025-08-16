@@ -131,7 +131,7 @@ function Home() {
                 Whether you have a question or just want to say hi, feel free to reach out!
               </p>
             <div className="cta-buttons">
-              <a href="/MyNameIsAnthonyChow/resume" className="btn">Download Resume</a>
+              <a href="/MyNameIsAnthonyChow/resume" className="btn">View Resume</a>
               <a href="mailto:tonypchow@gmail.com" className="btn btn-secondary">Get In Touch</a>
             </div>
           </div>

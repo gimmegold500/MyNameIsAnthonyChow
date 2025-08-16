@@ -33,7 +33,8 @@ export default function Resume() {
 
                     {/* this is taken from google drive, if you want to update your resume, you can do so by updating the file in 
                     google drive, copying the share link and pasting it here, making sure to make it accessable to anyone with the link */}
-                    <iframe src="https://drive.google.com/file/d/1Y_uNDb2OvUa0q-wv9WuzEFtxwi5Col77/view?usp=sharing" 
+                    <iframe src="https://drive.google.com/file/d/1Y_uNDb2OvUa0q-wv9WuzEFtxwi5Col77/preview#toolbar=0" 
+                        title="Anthony Chow Resume"
                         seamless="seamless"
                         style={{ 
                             alignItems: 'center',

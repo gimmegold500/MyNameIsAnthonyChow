@@ -42,33 +42,31 @@ function Home() {
                 <a href="/MyNameIsAnthonyChow/resume" className="btn btn-secondary">Download Resume</a>
               </div>
             </div>
-            <div className="hero-image">
+            {/* <div className="hero-image">
               <img src="/src/Files/AnthonyHead.png" alt="Anthony Chow" />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
+      
 
       {/* Quick Stats Section */}
       <section className="stats-section">
         <div className="container">
           <div className="stats-grid">
             <div className="stat-item">
-              <h3>3+</h3>
-              <p>Years Experience</p>
+              <h3>1+</h3>
+              <p>Year Experience</p>
             </div>
             <div className="stat-item">
-              <h3>20+</h3>
+              <h3>5+</h3>
               <p>Projects Completed</p>
             </div>
             <div className="stat-item">
-              <h3>15+</h3>
+              <h3>8+</h3>
               <p>Technologies</p>
             </div>
-            <div className="stat-item">
-              <h3>100%</h3>
-              <p>Client Satisfaction</p>
-            </div>
+
           </div>
         </div>
       </section>
@@ -108,16 +106,16 @@ function Home() {
           <h2 className="section-title">Technical Expertise</h2>
           <div className="skills-preview-grid">
             <div className="skill-category">
-              <h3>Frontend Development</h3>
-              <p>React, JavaScript, TypeScript, HTML5, CSS3</p>
+              <h3>Languages</h3>
+              <p>Python, JavaScript, C#, HTML/CSS, Java, C, C++</p>
             </div>
             <div className="skill-category">
-              <h3>Backend Development</h3>
-              <p>Node.js, Python, Java, Express.js, Django</p>
-            </div>
+              <h3>Frameworks</h3>
+              <p>React, Node.js, MVC, ASP.NET, JQuery, JUnit, SpringBoot </p>
+            </div> 
             <div className="skill-category">
-              <h3>Database & DevOps</h3>
-              <p>MongoDB, PostgreSQL, Docker, AWS, Git</p>
+              <h3>Enginvironments & Tools</h3>
+              <p>Git, Salesforce, Azure, Databricks, Jira, Linux</p>
             </div>
           </div>
         </div>
@@ -128,10 +126,13 @@ function Home() {
         <div className="container">
           <div className="cta-content">
             <h2>Ready to work together?</h2>
-            <p>Let's discuss your next project and how I can help bring your ideas to life.</p>
+              <p className="contact-text">
+                I'm always interested in hearing about new opportunities and exciting projects. 
+                Whether you have a question or just want to say hi, feel free to reach out!
+              </p>
             <div className="cta-buttons">
               <a href="/MyNameIsAnthonyChow/resume" className="btn">Download Resume</a>
-              <a href="mailto:your.email@example.com" className="btn btn-secondary">Get In Touch</a>
+              <a href="mailto:tonypchow@gmail.com" className="btn btn-secondary">Get In Touch</a>
             </div>
           </div>
         </div>

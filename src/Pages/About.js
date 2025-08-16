@@ -3,10 +3,10 @@ import './About.css';
 
 export default function About() {
   const skills = [
-    { category: "Frontend", technologies: ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS", "Material-UI"] },
-    { category: "Backend", technologies: ["Node.js", "Python", "Java", "Express.js", "Django", "Spring Boot"] },
+    { category: "Frontend", technologies: ["React", "JavaScript", "HTML5", "CSS3", "JQuery"] },
+    { category: "Backend", technologies: ["Python", "Java", "Node.js", "C#", "C", "C++", "Spring Boot"] },
     { category: "Database", technologies: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase"] },
-    { category: "DevOps & Tools", technologies: ["Docker", "AWS", "Git", "CI/CD", "Jenkins", "Kubernetes"] },
+    { category: "DevOps & Tools", technologies: ["AWS", "Git", "CI/CD", "Jenkins", "Kubernetes"] },
     { category: "Other", technologies: ["REST APIs", "GraphQL", "Microservices", "Agile/Scrum", "JUnit", "Jest"] }
   ];
 
@@ -18,7 +18,7 @@ export default function About() {
       description: "Developing and maintaining web applications, working with cross-functional teams to deliver high-quality software solutions."
     },
     {
-      company: "Previous Company",
+      company: "Starbucks",
       position: "Software Developer Intern",
       duration: "2022 - 2023",
       description: "Contributed to various projects using modern web technologies and gained experience in agile development practices."

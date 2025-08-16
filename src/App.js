@@ -4,11 +4,13 @@ import Topbar from './Topbar';
 import Home from './Home';
 import Projects from './Pages/Projects';
 import Resume from './Pages/Resume';
+import FaviconHandler from './FaviconHandler';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <FaviconHandler />
       <Topbar />
       <Routes>
         <Route path="/" element={<Home />} />
